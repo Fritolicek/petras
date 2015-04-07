@@ -1,0 +1,281 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Josefin+Slab);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Quicksand:300|Josefin+Slab:600|Quattrocento);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+body{font-family:Arial, Helvetica, sans-serif; fontsize:
+12px; margin:20px; padding:0; background-size: cover;}
+input, form, textarea
+h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+h1{font-size:30px; color:#730f15; text-shadow:2px 2px #c4c3c3;}
+h2{font-size:22px; color:#FFF;}
+h3{font-size:10px; border-bottom:solid 1px #DEDEDE; }
+h4{font-size:18px; color:#730f15;  }
+h5{font-size:25px; color:#730f15;  }
+h6{font-size:17px; color:#730f15;  }
+
+
+
+padding:4px 0; margin-bottom:10px;}
+a:link, a:visited{color:#0033CC;}
+a:hover{text-decoration:none;}
+
+
+/* ----------------------------*/
+/* PAGE ELEMENTS */
+/* ----------------------------*/
+
+#container{width:0 auto; margin:0 auto; background-color: #fffff;}
+#topbar{width:auto;  height:150px;  background-color: #e5e2e2; box-shadow:0px 0px  5px rgba(104, 103, 103, 1); padding-left: 30px; padding-top: 10px;font-family: 'Oswald', sans-serif; }
+#topbar2{width:auto;  height:60px; background-color:#f9f6f6; box-shadow:0px 0px  5px rgba(104, 103, 103, 1); font-family: 'Poiret One', cursive;}
+#main_content{width:auto;  height:auto; background-color:#f9f6f6; box-shadow:0px 0px  5px rgba(104, 103, 103, 1);  }
+#main_content1{width:auto;  height:auto; background-color:#f9f6f6; box-shadow:0px 0px  5px rgba(104, 103, 103, 1);  padding-top: 50px;padding-right: 15px;} 
+#main_content2{width:auto;  height:auto; background-color:#f9f6f6; box-shadow:0px 0px  5px rgba(104, 103, 103, 1);  padding-top: 50px;padding-right: 15px;} 
+#main_content_registracia{width:auto;  height:400px; background-color:#e5e2e2; box-shadow:0px 0px  5px rgba(104, 103, 103, 1); padding-top: 30px;padding-left: 175px;} 
+#pozadina_registracia{width:300;  height:300px; background-color:#e5e2e2; box-shadow:0px 0px  5px rgba(104, 103, 103, 1); padding-top: 40px;padding-left: 120px;}  
+#vypis_textu{width:600px;  height:50px; margin-left: 300px; margin-top: -230px; font-family: 'Quattrocento', serif; } 
+#registracia_text{width:0;  height:0; float: right; margin-right: -115px; margin-top: 7px;background-color: #fff;}
+
+#navMenu{margin: 0;padding: 0;list-style: none;float: right;font-size: 30px;top: 20px;position: relative;}
+#navMenu li{display: inline-block;margin: 0 10px; padding-top: 0px;}
+#navMenu li a{	color: #730f15;text-decoration: none;padding-top: 0px;transition: all .2s;-webkit-transition: all .2s;-moz-transition: all .2s;-o-transition: all .2s;-ms-transition: all .2s;}
+#navMenu li a:hover{	border-top: 3px solid #730f15;padding-top: 5px;}
+
+                                                   
+#footer{ width:auto;  height:600px; background-color:#575656;  font-family: 'Quattrocento', serif;  padding-top: 15px; box-shadow:0px 0px  5px rgba(104, 103, 103, 1);}
+
+ /* main kontent 1=================================================*/
+.aktuality {
+  display: block;
+  margin:  0 30px 0;
+  border-bottom: 1px solid #575656;
+  font-family: 'Quattrocento', serif;
+
+  }
+.viac_aktualit{
+   display: block;
+    font-family: 'Quattrocento', serif;
+    float: right;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+/* main kontent 2===============================================*/
+.eventy {
+  display: block;
+  margin:  0 30px 0;
+  border-bottom: 1px solid #575656;
+  font-family: 'Quattrocento', serif;
+
+  }
+.viac_eventov{
+   display: block;
+    font-family: 'Quattrocento', serif;
+    float: right;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+/*======================================================================*/
+#footer_text {
+  position: relative;
+  width: 355px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  font: 18pt 'Quattrocento', serif;
+  }
+ #footer_ciara{  
+ border-bottom: 1px solid ;
+ color: #4a4949;
+ margin-top: 60px;
+
+  }  
+  
+
+
+footer a, footer a:link, footer a:visited, #directedit-footer a, #directedit-footer a:visited,#directedit-footer a:link{
+	color: #fff;
+	text-decoration:none;
+  display: inline-block;
+}
+footer a:hover, #directedit-footer a:hover {text-decoration:underline;}
+footer .footer-events ul,
+footer .footer-news ul {
+	list-style: none;
+	margin-left:0;
+	padding-left: 0; 
+}
+footer .footer-events ul li,
+footer .footer-news ul li{
+	margin-bottom: 1em;
+}
+footer .footer-events ul li a,
+footer .footer-news ul li a {
+	color:#fff;  
+}
+.col-sm-3 {
+  width: 25%;
+  }     
+  .centerMaster2{
+	width: 80%;
+	margin: auto;
+	position: relative;
+}  
+
+.centerMaster3{
+	width: 90%;
+	margin: auto;
+	position: relative;
+  display: inline-block;
+  
+}                  
+    
+/*============================MENU FOOTER==========================*/
+ .menu_footer {
+  position: absolute;
+  width: 500px;
+  height: 30px;
+  float: left;
+  color: white;
+  margin: 25px 30px 0;
+  list-style-type: none; 
+  font: 12pt 'Quattrocento', serif;  
+  }
+  .menu_footer li {
+  float: left;
+  padding: 0 0 10px;
+  text-decoration: none;
+  padding-right: 30px;    /*toto ked menim tak sa mi zmensuje resp. zvacsuje vzdialenost medzi polozkami menu vo footri */
+  }
+ /*===================LOGIN============================*/
+
+#insideimagelogin { 
+
+    color: #FFFFFF;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+    margin-top: -40px;
+    float: right;
+    }
+    
+/*=====================REGISTRACIA=====================*/
+   #registracia { 
+
+    color: #FFFFFF;
+    position: relative;
+    width: 0;
+    height: 0;
+    margin-left: 250px;
+    
+    }
+
+    
+/*==================== Text footer ====================*/
+a:link {
+    color:#fff;
+    background-color:transparent;
+    text-decoration:none;
+    text-align:left;
+    padding-right: 20px;     /*toto ked menim tak sa mi zmensuje resp. zvacsuje vzdialenost medzi polozkami menu v MENU */
+}
+a:visited {
+    color:#fff;
+    background-color:transparent;
+    text-decoration:none; 
+    text-align:left;
+}
+a:hover {
+    color:#fff;
+    background-color:transparent;
+    text-decoration:underline;
+    text-align:left;
+}
+a:active {
+    color:#fff;
+    background-color:transparent;
+    text-decoration:underline;
+    text-align:left;
+}
+
+
+/*
+======================================
+  Jquery photo frame  
+======================================*/
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  height: 350px; 
+  padding: 0;
+  margin:0;
+  
+  }
+
+.rslides li {
+  
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 350px; 
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left; 
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  height: 350px;
+  border: 0;  
+  }
+ 
+  
+/*=====================DATA , TIME , NAMEDAY===================*/  
+.calwid_body {
+padding:3px;
+margin:3px;
+color:#575656;
+}
+.calwid_body A {
+color:#575656;
+text-decoraion:none;
+}
+.calwid_day {
+font-weight:bold;
+}
+.calwid_name1 {
+font-weight:bold;
+}
+.calwid_name2 {
+font-weight:bold;
+}
+
+
+
+
+#divMenu_aktivity1{
+ position: relative;
+ float: left;
+ width: 300px;
+ height: 300px;
+ background-color: red;
+ color: green;
+}  
+#divMenu_aktivity2{
+ position: relative;
+ float: right;
+ width: 300px;
+ height: 300px;
+ background-color: red;
+ color: green;
+}  
+ 
